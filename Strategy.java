@@ -1,4 +1,4 @@
-//Task 4: Strategy — Discount Calculator
+//Task 4: Strategy —  Discount Calculator
 //An e-commerce checkout needs different discount logic depending on customer type (RegularCustomer, PremiumCustomer, NoDiscount).
 //Instead of a giant if/else block inside Checkout, define a DiscountStrategy interface with applyDiscount(double price)
 //Checkout should hold a reference to a strategy and call it, swappable at runtime
